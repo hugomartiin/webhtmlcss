@@ -103,6 +103,7 @@ body {
 .shadow {
     box-shadow: 0 0 20px gainsboro;
     border-radius: 10px;
+
 }
 nav ul{
     padding: 0;
@@ -147,8 +148,9 @@ a {
 .text-center {
     text-align: center;
 }
-.text-subr {
+.text-centersubr {
     text-decoration: underline;
+    text-align: center;
 }
 .py-3 {
     padding: 16px 0;
@@ -364,4 +366,15 @@ form.form-html5 legend {
 .btn-blue {
     background-color: rgb(22, 3, 68);
     color: white;
+}
+#listas1 {
+    width: 50%;
+    float: left;
+
+
+}
+#listas2 {
+    width: 50%;
+    float: right;
+
 }
